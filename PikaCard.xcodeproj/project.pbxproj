@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8569AB7028B8D6C800156CA6 /* PokemonListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8569AB6F28B8D6C800156CA6 /* PokemonListModel.swift */; };
+		857339D428B53E460066904D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857339D328B53E460066904D /* AppDelegate.swift */; };
+		857339D628B53E460066904D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857339D528B53E460066904D /* SceneDelegate.swift */; };
+		857339D828B53E460066904D /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857339D728B53E460066904D /* MainScreenVC.swift */; };
+		857339DB28B53E460066904D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857339D928B53E460066904D /* Main.storyboard */; };
+		857339DE28B53E460066904D /* PikaCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 857339DC28B53E460066904D /* PikaCard.xcdatamodeld */; };
+		857339E028B53E470066904D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857339DF28B53E470066904D /* Assets.xcassets */; };
+		857339E328B53E470066904D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857339E128B53E470066904D /* LaunchScreen.storyboard */; };
+		857339EE28B53E470066904D /* PikaCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857339ED28B53E470066904D /* PikaCardTests.swift */; };
+		857339F828B53E470066904D /* PikaCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857339F728B53E470066904D /* PikaCardUITests.swift */; };
+		857339FA28B53E470066904D /* PikaCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857339F928B53E470066904D /* PikaCardUITestsLaunchTests.swift */; };
+		85733A0D28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85733A0B28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf */; };
+		85733A0E28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85733A0B28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf */; };
+		85733A0F28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85733A0B28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf */; };
+		85733A1028B53EBF0066904D /* SF-Compact-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85733A0C28B53EBF0066904D /* SF-Compact-Rounded-Regular.otf */; };
+		85733A1128B53EBF0066904D /* SF-Compact-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85733A0C28B53EBF0066904D /* SF-Compact-Rounded-Regular.otf */; };
+		85733A1228B53EBF0066904D /* SF-Compact-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85733A0C28B53EBF0066904D /* SF-Compact-Rounded-Regular.otf */; };
+		85733A1628B53FC20066904D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A1528B53FC20066904D /* Extensions.swift */; };
+		85733A1728B53FC20066904D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A1528B53FC20066904D /* Extensions.swift */; };
+		85733A1828B53FC20066904D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A1528B53FC20066904D /* Extensions.swift */; };
+		85733A1A28B53FE50066904D /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A1928B53FE50066904D /* PokemonService.swift */; };
+		85733A1B28B53FE50066904D /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A1928B53FE50066904D /* PokemonService.swift */; };
+		85733A1C28B53FE50066904D /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A1928B53FE50066904D /* PokemonService.swift */; };
+		85733A1E28B5403C0066904D /* PokemonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A1D28B5403C0066904D /* PokemonCardView.swift */; };
+		85733A1F28B5403C0066904D /* PokemonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A1D28B5403C0066904D /* PokemonCardView.swift */; };
+		85733A2028B5403C0066904D /* PokemonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A1D28B5403C0066904D /* PokemonCardView.swift */; };
+		85733A2228B540B70066904D /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A2128B540B70066904D /* PokemonModel.swift */; };
+		85733A2328B540B70066904D /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A2128B540B70066904D /* PokemonModel.swift */; };
+		85733A2428B540B70066904D /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A2128B540B70066904D /* PokemonModel.swift */; };
+		85733A2628B540CB0066904D /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A2528B540CB0066904D /* PokemonViewModel.swift */; };
+		85733A2728B540CB0066904D /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A2528B540CB0066904D /* PokemonViewModel.swift */; };
+		85733A2828B540CB0066904D /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85733A2528B540CB0066904D /* PokemonViewModel.swift */; };
+		85AF0BD128B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF0BD028B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift */; };
+		85AF0BD228B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF0BD028B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift */; };
+		85AF0BD328B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF0BD028B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		857339EA28B53E470066904D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857339C828B53E460066904D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857339CF28B53E460066904D;
+			remoteInfo = PikaCard;
+		};
+		857339F428B53E470066904D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857339C828B53E460066904D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857339CF28B53E460066904D;
+			remoteInfo = PikaCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8569AB6F28B8D6C800156CA6 /* PokemonListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListModel.swift; sourceTree = "<group>"; };
+		857339D028B53E460066904D /* PikaCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikaCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857339D328B53E460066904D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		857339D528B53E460066904D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		857339D728B53E460066904D /* MainScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
+		857339DA28B53E460066904D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		857339DD28B53E460066904D /* PikaCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PikaCard.xcdatamodel; sourceTree = "<group>"; };
+		857339DF28B53E470066904D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		857339E228B53E470066904D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		857339E428B53E470066904D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857339E928B53E470066904D /* PikaCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikaCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		857339ED28B53E470066904D /* PikaCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikaCardTests.swift; sourceTree = "<group>"; };
+		857339F328B53E470066904D /* PikaCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikaCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		857339F728B53E470066904D /* PikaCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikaCardUITests.swift; sourceTree = "<group>"; };
+		857339F928B53E470066904D /* PikaCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikaCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85733A0B28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		85733A0C28B53EBF0066904D /* SF-Compact-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		85733A1528B53FC20066904D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		85733A1928B53FE50066904D /* PokemonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
+		85733A1D28B5403C0066904D /* PokemonCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCardView.swift; sourceTree = "<group>"; };
+		85733A2128B540B70066904D /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		85733A2528B540CB0066904D /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		85AF0BD028B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCardFlipAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857339CD28B53E460066904D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857339E628B53E470066904D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857339F028B53E470066904D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8569AB6D28B8D6A700156CA6 /* PokemonList */ = {
+			isa = PBXGroup;
+			children = (
+				8569AB6E28B8D6B700156CA6 /* PokemonListModel */,
+			);
+			path = PokemonList;
+			sourceTree = "<group>";
+		};
+		8569AB6E28B8D6B700156CA6 /* PokemonListModel */ = {
+			isa = PBXGroup;
+			children = (
+				8569AB6F28B8D6C800156CA6 /* PokemonListModel.swift */,
+			);
+			path = PokemonListModel;
+			sourceTree = "<group>";
+		};
+		857339C728B53E460066904D = {
+			isa = PBXGroup;
+			children = (
+				857339D228B53E460066904D /* PikaCard */,
+				857339EC28B53E470066904D /* PikaCardTests */,
+				857339F628B53E470066904D /* PikaCardUITests */,
+				857339D128B53E460066904D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		857339D128B53E460066904D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857339D028B53E460066904D /* PikaCard.app */,
+				857339E928B53E470066904D /* PikaCardTests.xctest */,
+				857339F328B53E470066904D /* PikaCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857339D228B53E460066904D /* PikaCard */ = {
+			isa = PBXGroup;
+			children = (
+				857339D328B53E460066904D /* AppDelegate.swift */,
+				857339D528B53E460066904D /* SceneDelegate.swift */,
+				857339D928B53E460066904D /* Main.storyboard */,
+				857339DF28B53E470066904D /* Assets.xcassets */,
+				857339E128B53E470066904D /* LaunchScreen.storyboard */,
+				857339E428B53E470066904D /* Info.plist */,
+				8569AB6D28B8D6A700156CA6 /* PokemonList */,
+				85733A3028B558730066904D /* PokemonCard */,
+				85733A1428B53FB30066904D /* Extensions */,
+				85733A0A28B53EA00066904D /* Font */,
+				85733A0928B53E980066904D /* Service */,
+				85733A0628B53E760066904D /* MainScreen */,
+				857339DC28B53E460066904D /* PikaCard.xcdatamodeld */,
+			);
+			path = PikaCard;
+			sourceTree = "<group>";
+		};
+		857339EC28B53E470066904D /* PikaCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				857339ED28B53E470066904D /* PikaCardTests.swift */,
+			);
+			path = PikaCardTests;
+			sourceTree = "<group>";
+		};
+		857339F628B53E470066904D /* PikaCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				857339F728B53E470066904D /* PikaCardUITests.swift */,
+				857339F928B53E470066904D /* PikaCardUITestsLaunchTests.swift */,
+			);
+			path = PikaCardUITests;
+			sourceTree = "<group>";
+		};
+		85733A0628B53E760066904D /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				85733A0728B53E860066904D /* Model */,
+				85733A0828B53E8A0066904D /* ViewModel */,
+				85733A2928B541070066904D /* View */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		85733A0728B53E860066904D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85733A2128B540B70066904D /* PokemonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85733A0828B53E8A0066904D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				85733A2528B540CB0066904D /* PokemonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		85733A0928B53E980066904D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				85733A1928B53FE50066904D /* PokemonService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		85733A0A28B53EA00066904D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				85733A0B28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf */,
+				85733A0C28B53EBF0066904D /* SF-Compact-Rounded-Regular.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		85733A1428B53FB30066904D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				85733A1528B53FC20066904D /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		85733A2928B541070066904D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				857339D728B53E460066904D /* MainScreenVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85733A3028B558730066904D /* PokemonCard */ = {
+			isa = PBXGroup;
+			children = (
+				85733A1D28B5403C0066904D /* PokemonCardView.swift */,
+				85AF0BD028B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift */,
+			);
+			path = PokemonCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		857339CF28B53E460066904D /* PikaCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857339FD28B53E470066904D /* Build configuration list for PBXNativeTarget "PikaCard" */;
+			buildPhases = (
+				857339CC28B53E460066904D /* Sources */,
+				857339CD28B53E460066904D /* Frameworks */,
+				857339CE28B53E460066904D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PikaCard;
+			productName = PikaCard;
+			productReference = 857339D028B53E460066904D /* PikaCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		857339E828B53E470066904D /* PikaCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85733A0028B53E470066904D /* Build configuration list for PBXNativeTarget "PikaCardTests" */;
+			buildPhases = (
+				857339E528B53E470066904D /* Sources */,
+				857339E628B53E470066904D /* Frameworks */,
+				857339E728B53E470066904D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857339EB28B53E470066904D /* PBXTargetDependency */,
+			);
+			name = PikaCardTests;
+			productName = PikaCardTests;
+			productReference = 857339E928B53E470066904D /* PikaCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		857339F228B53E470066904D /* PikaCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85733A0328B53E470066904D /* Build configuration list for PBXNativeTarget "PikaCardUITests" */;
+			buildPhases = (
+				857339EF28B53E470066904D /* Sources */,
+				857339F028B53E470066904D /* Frameworks */,
+				857339F128B53E470066904D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857339F528B53E470066904D /* PBXTargetDependency */,
+			);
+			name = PikaCardUITests;
+			productName = PikaCardUITests;
+			productReference = 857339F328B53E470066904D /* PikaCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		857339C828B53E460066904D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					857339CF28B53E460066904D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					857339E828B53E470066904D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 857339CF28B53E460066904D;
+					};
+					857339F228B53E470066904D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 857339CF28B53E460066904D;
+					};
+				};
+			};
+			buildConfigurationList = 857339CB28B53E460066904D /* Build configuration list for PBXProject "PikaCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857339C728B53E460066904D;
+			productRefGroup = 857339D128B53E460066904D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857339CF28B53E460066904D /* PikaCard */,
+				857339E828B53E470066904D /* PikaCardTests */,
+				857339F228B53E470066904D /* PikaCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		857339CE28B53E460066904D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857339E328B53E470066904D /* LaunchScreen.storyboard in Resources */,
+				85733A1028B53EBF0066904D /* SF-Compact-Rounded-Regular.otf in Resources */,
+				85733A0D28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf in Resources */,
+				857339E028B53E470066904D /* Assets.xcassets in Resources */,
+				857339DB28B53E460066904D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857339E728B53E470066904D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85733A0E28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf in Resources */,
+				85733A1128B53EBF0066904D /* SF-Compact-Rounded-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857339F128B53E470066904D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85733A0F28B53EBF0066904D /* SF-Compact-Rounded-Medium.otf in Resources */,
+				85733A1228B53EBF0066904D /* SF-Compact-Rounded-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		857339CC28B53E460066904D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85733A1628B53FC20066904D /* Extensions.swift in Sources */,
+				8569AB7028B8D6C800156CA6 /* PokemonListModel.swift in Sources */,
+				85AF0BD128B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift in Sources */,
+				857339DE28B53E460066904D /* PikaCard.xcdatamodeld in Sources */,
+				857339D828B53E460066904D /* MainScreenVC.swift in Sources */,
+				857339D428B53E460066904D /* AppDelegate.swift in Sources */,
+				85733A1E28B5403C0066904D /* PokemonCardView.swift in Sources */,
+				85733A2628B540CB0066904D /* PokemonViewModel.swift in Sources */,
+				857339D628B53E460066904D /* SceneDelegate.swift in Sources */,
+				85733A1A28B53FE50066904D /* PokemonService.swift in Sources */,
+				85733A2228B540B70066904D /* PokemonModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857339E528B53E470066904D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857339EE28B53E470066904D /* PikaCardTests.swift in Sources */,
+				85733A1728B53FC20066904D /* Extensions.swift in Sources */,
+				85733A2728B540CB0066904D /* PokemonViewModel.swift in Sources */,
+				85733A1F28B5403C0066904D /* PokemonCardView.swift in Sources */,
+				85733A2328B540B70066904D /* PokemonModel.swift in Sources */,
+				85733A1B28B53FE50066904D /* PokemonService.swift in Sources */,
+				85AF0BD228B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857339EF28B53E470066904D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857339FA28B53E470066904D /* PikaCardUITestsLaunchTests.swift in Sources */,
+				85733A2428B540B70066904D /* PokemonModel.swift in Sources */,
+				85733A2028B5403C0066904D /* PokemonCardView.swift in Sources */,
+				85733A2828B540CB0066904D /* PokemonViewModel.swift in Sources */,
+				85733A1C28B53FE50066904D /* PokemonService.swift in Sources */,
+				85733A1828B53FC20066904D /* Extensions.swift in Sources */,
+				857339F828B53E470066904D /* PikaCardUITests.swift in Sources */,
+				85AF0BD328B7AB3400D48EB0 /* PokemonCardFlipAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		857339EB28B53E470066904D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857339CF28B53E460066904D /* PikaCard */;
+			targetProxy = 857339EA28B53E470066904D /* PBXContainerItemProxy */;
+		};
+		857339F528B53E470066904D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857339CF28B53E460066904D /* PikaCard */;
+			targetProxy = 857339F428B53E470066904D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		857339D928B53E460066904D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857339DA28B53E460066904D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		857339E128B53E470066904D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857339E228B53E470066904D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857339FB28B53E470066904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		857339FC28B53E470066904D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857339FE28B53E470066904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4RY885YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PikaCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FazilKulakoglu.PikaCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		857339FF28B53E470066904D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4RY885YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PikaCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FazilKulakoglu.PikaCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		85733A0128B53E470066904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4RY885YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FazilKulakoglu.PikaCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PikaCard.app/PikaCard";
+			};
+			name = Debug;
+		};
+		85733A0228B53E470066904D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4RY885YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FazilKulakoglu.PikaCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PikaCard.app/PikaCard";
+			};
+			name = Release;
+		};
+		85733A0428B53E470066904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4RY885YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FazilKulakoglu.PikaCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PikaCard;
+			};
+			name = Debug;
+		};
+		85733A0528B53E470066904D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4RY885YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FazilKulakoglu.PikaCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PikaCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		857339CB28B53E460066904D /* Build configuration list for PBXProject "PikaCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857339FB28B53E470066904D /* Debug */,
+				857339FC28B53E470066904D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857339FD28B53E470066904D /* Build configuration list for PBXNativeTarget "PikaCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857339FE28B53E470066904D /* Debug */,
+				857339FF28B53E470066904D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85733A0028B53E470066904D /* Build configuration list for PBXNativeTarget "PikaCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85733A0128B53E470066904D /* Debug */,
+				85733A0228B53E470066904D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85733A0328B53E470066904D /* Build configuration list for PBXNativeTarget "PikaCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85733A0428B53E470066904D /* Debug */,
+				85733A0528B53E470066904D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		857339DC28B53E460066904D /* PikaCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				857339DD28B53E460066904D /* PikaCard.xcdatamodel */,
+			);
+			currentVersion = 857339DD28B53E460066904D /* PikaCard.xcdatamodel */;
+			path = PikaCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 857339C828B53E460066904D /* Project object */;
+}
