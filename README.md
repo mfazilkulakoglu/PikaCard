@@ -4,7 +4,7 @@
 
 PokeCard is the mobile application that shows the pokemons' images and some features for ios devices. You can shuffle, search with name or tap the card to see other pokemon.
 
-<img src="https://github.com/mfazilkulakoglu/PokeCard/blob/master/ss" width="1170" height="2532">
+![](https://github.com/mfazilkulakoglu/PokeCard/blob/master/ss){: width=1170px height=2532px}
 
 
 ### Built With
