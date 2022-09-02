@@ -5,6 +5,7 @@
 PokeCard is the mobile application that shows the pokemons' images and some features for ios devices. You can shuffle, search with name or tap the card to see other pokemon.
 
 ![](https://github.com/mfazilkulakoglu/PokeCard/blob/master/ss.png)
+{:.some-css-class style="width: 200px"}
 
 
 ### Built With
@@ -38,5 +39,5 @@ MIT
 
 Mehmet F. Kulakoğlu - [@fazil_1905](https://twitter.com/fazil__1905) - [LinkedIn](https://www.linkedin.com/in/m-fazil-kulakoglu/?locale=en_US) - fazilkulakoglu@gmail.com 
 
-Project Link: https://github.com/mfazilkulakoglu/bakal
+Project Link: https://github.com/mfazilkulakoglu/PokeCard
 
